@@ -13,10 +13,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://git.drupal.org/project/guardr_core.git"
         }
     ],
     "require": {
@@ -27,7 +23,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/guardr": "1.x-dev",
-        "drupal/guardr_core": "dev-feature/3008975-composer-json",
+        "drupal/guardr_core": "1.x-dev",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
