@@ -1,11 +1,13 @@
 ## Build Status
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
+[![Build Status](https://travis-ci.com/guardrdistro/guardr-project.svg?branch=8.x)](https://travis-ci.com/guardrdistro/guardr-project)
+
 ## Overview
 
 Guardr is a Drupal distribution with a combination of modules and settings to
 enhance a Drupal application's security and availability to meet enterprise
-security requirements.  Following the CIA Information Security Triad of
+security requirements. Following the CIA Information Security Triad of
 confidentiality, integrity and availability, the Guardr distribution aims to
 provide a security minded foundation to Drupal applications.
 
@@ -33,7 +35,6 @@ composer install
 
 * [Drupal Project Page](http://twitter.com/guardrproject)
 * [Drupal Slack](https://www.drupal.org/slack) #contrib-guardr
-* IRC #drupal-guardr at [irc.freenode.net](irc.freenode.net)
 * [Follow Guardr on Twitter](http://twitter.com/guardrproject)
 
 ## License
