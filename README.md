@@ -1,15 +1,18 @@
+## Build Status
+
+[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 ## Overview
 
-Guardr is a Drupal distrobution with a combination of modules and settings to
-enhance a Drupal application's security and availabilit to meet enterprise
+Guardr is a Drupal distribution with a combination of modules and settings to
+enhance a Drupal application's security and availability to meet enterprise
 security requirements.  Following the CIA Information Security Triad of
-confidentiality, integrity and availability, the Guardr distrobution aims to
+confidentiality, integrity and availability, the Guardr distribution aims to
 provide a security minded foundation to Drupal applications.
 
 Default Guardr installs make stronger password requirements, strengthens
 logging, prevents PHP input for content, implements some best practices for
 email content, and disables error display requiring you to opt in to debugging
-information using a variety of contrib modules and custom solutions.
+information using a variety of contributed modules and custom solutions.
 
 ## Install Instructions
 
@@ -28,14 +31,13 @@ composer install
 
 ## Guardr Community
 
-* [Named Link](http://twitter.com/guardrproject) "Drupal Project Page"
-* [Named Link](https://www.drupal.org/slack) "Drupal Slack" #contrib-guardr
-* IRC #drupal-guardr at <irc.freenode.net>
-* [Named Link](http://twitter.com/guardrproject) "Follow Guardr on Twitter"
+* [Drupal Project Page](http://twitter.com/guardrproject)
+* [Drupal Slack](https://www.drupal.org/slack) #contrib-guardr
+* IRC #drupal-guardr at [irc.freenode.net](irc.freenode.net)
+* [Follow Guardr on Twitter](http://twitter.com/guardrproject)
 
-##License
+## License
 
 The Guardr Project is licensed under a GNU General Public License v.2
-[Named Link](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) "Read
-License"
+[Read License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
