@@ -1,4 +1,4 @@
-# Guardr Composer template for secure Drupal projects
+# Guardr Composer Template for Secure Drupal Projects
 
 ## Build Status
 
