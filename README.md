@@ -37,7 +37,7 @@ composer install
 
 ## Guardr Community
 
-* [Drupal Project Page](http://twitter.com/guardrproject)
+* [Drupal Project Page](https://www.drupal.org/project/guardr)
 * [Drupal Slack](https://www.drupal.org/slack) #contrib-guardr
 * [Follow Guardr on Twitter](http://twitter.com/guardrproject)
 
