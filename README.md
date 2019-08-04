@@ -1,9 +1,13 @@
+# Guardr Composer Template for Secure Drupal Projects
+
 ## Build Status
 
-[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 [![Build Status](https://travis-ci.com/guardrdistro/guardr-project.svg?branch=8.x)](https://travis-ci.com/guardrdistro/guardr-project)
 
 ## Overview
+
+This project template provides a starter kit for managing secure-first Guardr
+Drupal projects.
 
 Guardr is a Drupal distribution with a combination of modules and settings to
 enhance a Drupal application's security and availability to meet enterprise
