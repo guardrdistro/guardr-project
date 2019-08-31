@@ -30,21 +30,6 @@ Option 1 - Install Fully Using Composer
 composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-interaction
 ```
 
-Option 2 Manual Install
-
-1. Clone the repository and install the project
-
-```
-git clone https://github.com/guardrdistro/guardr-project
-cd guardr-project
-composer install
-```
-
-2. Setup your local environment to use the web folder as webroot
-
-3. Install Drupal using Drush or use the Drupal UI, making sure to select the
-"Guardr" install profile
-
 ## Guardr Community
 
 * [Drupal Project Page](https://www.drupal.org/project/guardr)
