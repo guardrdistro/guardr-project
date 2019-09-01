@@ -22,9 +22,7 @@ information using a variety of contributed modules and custom solutions.
 
 ## Install Instructions
 
-There are two ways to install Guardr.
-
-Option 1 - Install Fully Using Composer
+Install Guardr using Composere
 
 ```
 composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-interaction
