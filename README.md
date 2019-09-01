@@ -22,7 +22,7 @@ information using a variety of contributed modules and custom solutions.
 
 ## Install Instructions
 
-Install Guardr using Composere
+Install Guardr using Composer
 
 ```
 composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-interaction
