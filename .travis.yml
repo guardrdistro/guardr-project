@@ -41,3 +41,5 @@ script:
   - ./../vendor/bin/phpunit -c core --testsuite unit --exclude-group Composer,CTools,DependencyInjection,PageCache,Setup
   - ./../vendor/bin/drush
   - if [[ $RELEASE = stable ]]; then ./../vendor/bin/drupal; fi;
+  # Check for available security updates
+  - ./../vendor/bin/drush ups
