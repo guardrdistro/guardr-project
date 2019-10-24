@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a662c9eeda1eacbc3c2b5fc5a6893a6",
+    "content-hash": "9f01a351fb4669320b222bc36eda19c2",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1898,30 +1898,28 @@
         },
         {
             "name": "doctrine/lexer",
-            "version": "1.1.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
-                "reference": "e17f069ede36f7534b95adec71910ed1b49c74ea"
+                "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/e17f069ede36f7534b95adec71910ed1b49c74ea",
-                "reference": "e17f069ede36f7534b95adec71910ed1b49c74ea",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/1febd6c3ef84253d7c815bed85fc622ad207a9f8",
+                "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": ">=5.3.2"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "phpstan/phpstan": "^0.11.8",
-                "phpunit/phpunit": "^8.2"
+                "phpunit/phpunit": "^4.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -1935,12 +1933,12 @@
             ],
             "authors": [
                 {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Johannes Schmitt",
@@ -1956,7 +1954,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-07-30T19:33:28+00:00"
+            "time": "2019-06-08T11:03:04+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -3993,14 +3991,14 @@
             "authors": [
                 {
                     "name": "Nicholas Humfrey",
+                    "role": "Developer",
                     "email": "njh@aelius.com",
-                    "homepage": "http://www.aelius.com/njh/",
-                    "role": "Developer"
+                    "homepage": "http://www.aelius.com/njh/"
                 },
                 {
                     "name": "Alexey Zakhlestin",
-                    "email": "indeyets@gmail.com",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "indeyets@gmail.com"
                 }
             ],
             "description": "EasyRdf is a PHP library designed to make it easy to consume and produce RDF.",
@@ -4217,27 +4215,28 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.3.3",
+            "version": "6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+                "reference": "0895c932405407fd3a7368b6910c09a24d26db11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
-                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0895c932405407fd3a7368b6910c09a24d26db11",
+                "reference": "0895c932405407fd3a7368b6910c09a24d26db11",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "guzzlehttp/promises": "^1.0",
-                "guzzlehttp/psr7": "^1.4",
+                "guzzlehttp/psr7": "^1.6.1",
                 "php": ">=5.5"
             },
             "require-dev": {
                 "ext-curl": "*",
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
-                "psr/log": "^1.0"
+                "psr/log": "^1.1"
             },
             "suggest": {
                 "psr/log": "Required for using the Log middleware"
@@ -4249,12 +4248,12 @@
                 }
             },
             "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
                 "psr-4": {
                     "GuzzleHttp\\": "src/"
-                }
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4278,7 +4277,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-04-22T15:46:56+00:00"
+            "time": "2019-10-23T15:58:00+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -4897,18 +4896,18 @@
             "authors": [
                 {
                     "name": "Greg Beaver",
-                    "email": "cellog@php.net",
-                    "role": "Helper"
+                    "role": "Helper",
+                    "email": "cellog@php.net"
                 },
                 {
                     "name": "Andrei Zmievski",
-                    "email": "andrei@php.net",
-                    "role": "Lead"
+                    "role": "Lead",
+                    "email": "andrei@php.net"
                 },
                 {
                     "name": "Stig Bakken",
-                    "email": "stig@php.net",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "stig@php.net"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
@@ -4951,8 +4950,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "email": "cweiske@php.net",
-                    "role": "Lead"
+                    "role": "Lead",
+                    "email": "cweiske@php.net"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -10320,8 +10319,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
@@ -10377,5 +10376,8 @@
     "platform": {
         "php": ">=5.6"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.1.3"
+    }
 }
