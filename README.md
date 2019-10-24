@@ -20,6 +20,12 @@ logging, prevents PHP input for content, implements some best practices for
 email content, and disables error display requiring you to opt in to debugging
 information using a variety of contributed modules and custom solutions.
 
+This Guardr Composer Template is perfect for starting up a new secure site, if
+you have an existing Drupal site that you would like to secure, the Guardr Core
+project is right for you.
+
+* [Guardr Core  Project Page](https://https://www.drupal.org/project/guardr_core)
+
 ## Install Instructions
 
 Install Guardr using Composer
