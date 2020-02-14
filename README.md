@@ -24,7 +24,7 @@ This Guardr Composer Template is perfect for starting up a new secure site, if
 you have an existing Drupal site that you would like to secure, the Guardr Core
 project is right for you.
 
-* [Guardr Core  Project Page](https://https://www.drupal.org/project/guardr_core)
+* [Guardr Drupal.org Project](https://www.drupal.org/project/guardr_core)
 
 ## Install Instructions
 
