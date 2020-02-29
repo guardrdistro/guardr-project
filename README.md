@@ -45,5 +45,5 @@ composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-intera
 
 ## License
 
-The Guardr Project is licensed under a GNU General Public License vgd2
+The Guardr Project is licensed under a GNU General Public License v2
 [Read License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
