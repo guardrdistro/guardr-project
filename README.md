@@ -1,7 +1,7 @@
 # Guardr Composer Template for Secure Drupal Projects
 
 <img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
-     alt="Guardr logo" align="right" width="300px" />
+     alt="Guardr logo" align="right" width="200px" />
 
 ## Build Status
 
