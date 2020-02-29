@@ -1,5 +1,9 @@
 # Guardr Composer Template for Secure Drupal Projects
 
+<img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
+     alt="Guardr logo"
+     style="width: 300px; float: right; margin-left: 20px;" />
+
 ## Build Status
 
 [![Build Status](https://travis-ci.com/guardrdistro/guardr-project.svg?branch=8.x)](https://travis-ci.com/guardrdistro/guardr-project)
@@ -30,7 +34,7 @@ project is right for you.
 
 Install Guardr using Composer
 
-```
+```bash
 composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-interaction
 ```
 
@@ -44,4 +48,3 @@ composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-intera
 
 The Guardr Project is licensed under a GNU General Public License v.2
 [Read License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-
