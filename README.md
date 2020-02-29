@@ -6,8 +6,8 @@
 
 ## Overview
 
-<img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
-     alt="Guardr logo" align="right" width="150px" />
+[<img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
+     alt="Guardr logo" align="right" width="150px" />](https://www.drupal.org/project/guardr)
 
 This project template provides a starter kit for managing secure-first Guardr
 Drupal projects.
@@ -45,5 +45,5 @@ composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-intera
 
 ## License
 
-The Guardr Project is licensed under a GNU General Public License v.2
+The Guardr Project is licensed under a GNU General Public License vgd2
 [Read License](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
