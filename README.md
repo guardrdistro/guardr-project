@@ -1,13 +1,13 @@
 # Guardr Composer Template for Secure Drupal Projects
 
-<img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
-     alt="Guardr logo" align="right" width="150px" />
-
 ## Build Status
 
 [![Build Status](https://travis-ci.com/guardrdistro/guardr-project.svg?branch=8.x)](https://travis-ci.com/guardrdistro/guardr-project)
 
 ## Overview
+
+<img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
+     alt="Guardr logo" align="right" width="150px" />
 
 This project template provides a starter kit for managing secure-first Guardr
 Drupal projects.
