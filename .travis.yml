@@ -38,4 +38,4 @@ script:
   - ./vendor/bin/drush
   - if [[ $RELEASE = stable ]]; then ./vendor/bin/drupal; fi;
   # Check for available security updates
-  - ./../vendor/bin/drush pm:security
+  - ./vendor/bin/drush pm:security
