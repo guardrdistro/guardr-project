@@ -17,7 +17,7 @@
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
         "drush/drush": "^9.7.1 | ^10.0.0",
-        "drupal/guardr": "^1.0.0-beta1",
+        "drupal/guardr": "dev-1.x#0e1f112aff3e3ba80631e71edb9de6dd73857171",
         "drupal/guardr_core": "^1.0.0-beta1",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
