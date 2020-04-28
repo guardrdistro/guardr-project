@@ -42,6 +42,10 @@ composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-intera
 * [8.x](https://github.com/guardrdistro/guardr-project/tree/8.x) - Stable branch. Stable releases will be tagged.
 * [8.x-test](https://github.com/guardrdistro/guardr-project/tree/8.x-test) - Dev branch. Used for testing dev versions of [Guardr](https://www.drupal.org/project/guardr) and [Guardr Core](https://www.drupal.org/project/guardr_core).
 
+## Drupal 9 Compatibility
+
+Drupal 9 related work for Guardr: [[META] Drupal 9 release plan for Guardr](https://www.drupal.org/project/guardr/issues/3107871)
+
 ## Guardr Community
 
 * [Drupal Project Page](https://www.drupal.org/project/guardr)
