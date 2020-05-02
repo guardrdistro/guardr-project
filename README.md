@@ -24,10 +24,7 @@ email content, and disables error display requiring you to opt in to debugging
 information using a variety of contributed modules and custom solutions.
 
 This Guardr Composer Template is perfect for starting up a new secure site, if
-you have an existing Drupal site that you would like to secure, the Guardr Core
-project is right for you.
-
-* [Guardr Drupal.org Project](https://www.drupal.org/project/guardr_core)
+you have an existing Drupal site that you would like to secure, the [Guardr Core](https://www.drupal.org/project/guardr_core) project is right for you.
 
 ## Install Instructions
 
