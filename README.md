@@ -24,10 +24,7 @@ email content, and disables error display requiring you to opt in to debugging
 information using a variety of contributed modules and custom solutions.
 
 This Guardr Composer Template is perfect for starting up a new secure site, if
-you have an existing Drupal site that you would like to secure, the Guardr Core
-project is right for you.
-
-* [Guardr Drupal.org Project](https://www.drupal.org/project/guardr_core)
+you have an existing Drupal site that you would like to secure, the [Guardr Core](https://www.drupal.org/project/guardr_core) project is right for you.
 
 ## Install Instructions
 
@@ -41,6 +38,10 @@ composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-intera
 
 * [8.x](https://github.com/guardrdistro/guardr-project/tree/8.x) - Stable branch. Stable releases will be tagged.
 * [8.x-test](https://github.com/guardrdistro/guardr-project/tree/8.x-test) - Dev branch. Used for testing dev versions of [Guardr](https://www.drupal.org/project/guardr) and [Guardr Core](https://www.drupal.org/project/guardr_core).
+
+## Drupal 9 Compatibility
+
+Drupal 9 related work for Guardr: [[META] Drupal 9 release plan for Guardr](https://www.drupal.org/project/guardr/issues/3107871)
 
 ## Guardr Community
 
