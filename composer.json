@@ -37,7 +37,8 @@
         "webflo/drupal-finder": "^1.0.0"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.0"
+        "drupal/core-dev": "^9.0",
+        "phpspec/prophecy-phpunit": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
