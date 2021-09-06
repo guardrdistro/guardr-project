@@ -29,7 +29,7 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.7.0",
         "drupal/console": "^1.9",
-        "drupal/core": "^2.0.0",
+        "drupal/core": "^9.0",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/guardr": "^2.0.0",
         "drush/drush": "^10.3",
