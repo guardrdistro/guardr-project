@@ -31,7 +31,7 @@
         "drupal/console": "^1.9",
         "drupal/core": "^9.0",
         "drupal/core-composer-scaffold": "^9.0",
-        "drupal/guardr": "^2.0.0",
+        "drupal/guardr": "9.x-test-dev",
         "drush/drush": "^10.3",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0"
