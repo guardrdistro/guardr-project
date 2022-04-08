@@ -13,7 +13,7 @@
     "repositories": [
         {
           "type": "vcs",
-          "url": "git@git.drupal.org:issue/guardr-3274328.git"
+          "url": "https://git.drupalcode.org/issue/guardr-3274328.git"
         },
         {
             "type": "composer",
