@@ -31,7 +31,7 @@ you have an existing Drupal site that you would like to secure, the [Guardr Core
 Install Guardr using Composer
 
 ```bash
-composer create-project guardrdistro/guardr-project:8.x-dev some-dir --no-interaction
+composer create-project guardrdistro/guardr-project:9.x-test-dev some-dir --no-interaction
 ```
 
 ## Branch Details
