@@ -10,7 +10,7 @@ tasks:
       ddev stop -a
       ddev start -y
       ddev composer install
-      ddev drush site-install --verbose --yes
+      ddev drush site-install guardr --verbose --yes
     command: |
       ddev start -y
       gp ports await 8080 && gp preview $(gp url 8080)
