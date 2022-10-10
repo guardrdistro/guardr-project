@@ -13,11 +13,7 @@
     "repositories": [
         {
           "type": "vcs",
-          "url": "https://git.drupalcode.org/project/guardr.git"
-        },
-        {
-          "type": "vcs",
-          "url": "https://git.drupalcode.org/project/guardr_core.git"
+          "url": "https://git.drupalcode.org/issue/guardr-3274328.git"
         },
         {
             "type": "composer",
@@ -31,8 +27,8 @@
         "drupal/console": "^1.9",
         "drupal/core": "^9.0",
         "drupal/core-composer-scaffold": "^9.0",
-        "drupal/guardr": "^2.0.0",
-        "drush/drush": "^10.3",
+        "drupal/guardr": "dev-3274328-add-composer.json",
+        "drush/drush": "^11.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0"
     },
@@ -46,7 +42,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/console-extend-plugin": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "autoload": {
         "classmap": [
