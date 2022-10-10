@@ -51,12 +51,12 @@ jobs:
         run: composer --verbose install
 
       - if: matrix.drupal-release == 'dev'
-        run: composer --verbose require --no-update drupal/core-recommended:9.3.x-dev && composer --verbose require --no-update --dev drupal/core-dev:9.3.x-dev
+        run: composer --verbose require --no-update drupal/core-recommended:9.4.x-dev && composer --verbose require --no-update --dev drupal/core-dev:9.4.x-dev
 
       - if: matrix.drupal-release == 'dev'
         run: composer --verbose update
 
-      - run: ./vendor/bin/drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
+      - run: ./vendor/bin/drush site-install guardr --verbose --yes --db-url=sqlite://tmp/site.sqlite
 
       - run: ./vendor/bin/drush runserver $SIMPLETEST_BASE_URL &
 
