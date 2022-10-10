@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.com/guardrdistro/guardr-project.svg?branch=8.x)](https://travis-ci.com/guardrdistro/guardr-project)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/guardrdistro/guardr-project)
+
 ## Overview
 
 [<img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/Guardr%20Logo-Vertical-Default.png"
